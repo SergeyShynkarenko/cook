@@ -73,9 +73,9 @@
 }
 
 .btn {
-	@apply flex justify-center items-center text-xl/[150%] xs:text-2xl/[150%] py-[16px] px-[24px] border-2 border-white hover:bg-white cursor-pointer;
+	@apply flex justify-center items-center text-xl/[150%] xs:text-2xl/[150%] py-[16px] px-[24px] border-2 border-white hover:bg-white cursor-pointer transition-all ease-in duration-150;
 }
 
 .btn-text {
-	@apply mr-[8px];
+	@apply mr-[8px] transition-all ease-in duration-150;
 }
