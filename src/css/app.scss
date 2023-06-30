@@ -1,0 +1,81 @@
+@import "tailwindcss/base.css";
+@import "tailwindcss/components.css";
+@import "tailwindcss/utilities.css";
+
+@import "./src/css/fonts.scss"; // import fonts
+@import "./src/css/typography.scss"; // import typography rules
+@import "./src/css/core.scss"; // import theme core css
+
+// if you badly need to write scss for an element/section, put it inside elements folder
+// and import it this way
+// @import './src/elements/filename.scss';
+
+.ht-container {
+	@apply max-w-[1400px] w-full mx-auto px-[20px] 3xl:max-w-[1940px];
+}
+
+/* Typography */
+.heading-100 {
+}
+.heading-200 {
+}
+.heading-300 {
+}
+.heading-400 {
+}
+.heading-500 {
+}
+
+.subheading-100 {
+}
+.subheading-200 {
+}
+
+.subheading-300 {
+}
+.subheading-400 {
+}
+.subheading-500 {
+}
+
+.paragraph-50 {
+}
+.paragraph-100 {
+}
+.paragraph-200 {
+}
+.paragraph-300 {
+}
+.paragraph-400 {
+}
+.paragraph-500 {
+}
+
+/* Cards */
+.number {
+	@apply flex justify-end text-5xl/[130%] mb-[15px] font-bold;
+}
+
+.content {
+	@apply flex flex-col sm:flex-row flex-1 justify-between py-[20px] border-y-2 border-white;
+}
+
+.content-title {
+	@apply mb-[25px] sm:mb-0 text-4xl/[130%] xs:text-5xl/[130%] font-bold;
+}
+
+.text {
+	@apply text-xl/[150%] xs:text-2xl/[150%] mt-[17px] mb-[34px];
+}
+
+.content-img {
+	@apply flex justify-end items-center lg:items-end xl:items-center w-full sm:w-3/6;
+}
+
+.btn {
+	@apply flex justify-center items-center text-xl/[150%] xs:text-2xl/[150%] py-[16px] px-[24px] border-2 border-white hover:bg-white cursor-pointer;
+}
+
+.btn-text {
+	@apply mr-[8px];
+}

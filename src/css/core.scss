@@ -1,0 +1,113 @@
+// html tags
+body,
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	--tw-text-opacity: 1;
+	overflow-x: hidden;
+	font-family: JostRegular, sans-serif;
+	scroll-behavior: smooth;
+}
+
+iframe {
+	width: 100%;
+}
+
+ul {
+	@apply list-disc;
+}
+ol {
+	@apply list-decimal;
+}
+
+a.button,
+button[type="submit"],
+input[type="submit"] {
+	@apply w-auto;
+}
+a.button.secondary,
+button[type="submit"].secondary,
+input[type="submit"].secondary {
+	@apply w-auto;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+select,
+.select2-container--default .select2-selection--single {
+	box-shadow: none !important;
+	@apply py-2 px-4 w-full appearance-none border text-black text-xs;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 50%;
+	transform: translateY(-50%);
+}
+textarea {
+	box-shadow: none !important;
+}
+
+// wordpress classes
+.container {
+	max-width: 1480px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1.25rem; //20px
+	padding-right: 1.25rem; //20px
+}
+.wp-block-image,
+iframe {
+	@apply mb-5;
+}
+.no_s {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.sr-only {
+	display: none;
+}
+.woocommerce-notices-wrapper ul {
+	@apply ml-0 list-none;
+}
+
+.heading-100 {
+}
+.heading-200 {
+}
+.heading-300 {
+}
+.heading-400 {
+}
+.heading-500 {
+}
+
+.subheading-100 {
+}
+.subheading-200 {
+}
+
+.subheading-300 {
+}
+.subheading-400 {
+}
+.subheading-500 {
+}
+
+.paragraph-100 {
+}
+.paragraph-200 {
+}
+.paragraph-300 {
+}
+.paragraph-400 {
+}
+.paragraph-500 {
+}

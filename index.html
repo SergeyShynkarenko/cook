@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTProject</title>
+	<meta name="description" content="">
+	<script type="module" src="/main.js"></script>
+</head>
+
+<body class="antialiased">
+	<main>
+
+		<header class="header py-[25px] px-[20px]">
+			<div class="ht-container">
+
+				<div class="flex justify-between items-center">
+					<a href="#">
+						<img class="w-[85px] h-[87px]" src="public/images/logo.svg" alt="MCI">
+					</a>
+
+					<form>
+						<button class="group hover:border-futurePink rounded-full border-2 border-black w-[50px] h-[50px]">
+
+							<svg class="mx-auto stroke-black group-hover:stroke-futurePink" width="25" height="25" viewBox="0 0 25 25"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M21.5 21.5L15.5 15.5M17.5 10.5C17.5 11.4193 17.3189 12.3295 16.9672 13.1788C16.6154 14.0281 16.0998 14.7997 15.4497 15.4497C14.7997 16.0998 14.0281 16.6154 13.1788 16.9672C12.3295 17.3189 11.4193 17.5 10.5 17.5C9.58075 17.5 8.6705 17.3189 7.82122 16.9672C6.97194 16.6154 6.20026 16.0998 5.55025 15.4497C4.90024 14.7997 4.38463 14.0281 4.03284 13.1788C3.68106 12.3295 3.5 11.4193 3.5 10.5C3.5 8.64348 4.2375 6.86301 5.55025 5.55025C6.86301 4.2375 8.64348 3.5 10.5 3.5C12.3565 3.5 14.137 4.2375 15.4497 5.55025C16.7625 6.86301 17.5 8.64348 17.5 10.5Z"
+									stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+					</form>
+				</div>
+			</div>
+		</header>
+
+		<section class="bg-pastelGreen relative">
+			<div class="ht-container">
+
+				<div
+					class="flex justify-between pt-[105px] pb-[255px] text-white flex-col xl:flex-row xl:gap-x-[135px] 2xl:gap-x-[190px] 3xl:gap-x-[100px]">
+					<h1 class="text-5xl/[130%] xs:text-7xl/[130%] mb-[45px] xl:mb-0 font-bold m-0 xl:max-w-[370px] max-w-[670px]">
+						Welcome
+						<span class="font-regular font-normal">to the</span> MCI
+						Cookbook<span class="font-regular font-normal">!</span>
+					</h1>
+
+					<div class="text-2xl/[150%] xs:text-4xl/[150%] w-full xl:max-w-[603px] 2xl:max-w-[725px] 3xl:max-w-[1200px]">
+						<p class="mb-[55px]"><span class="font-bold">We are excited to have you join our team.</span> Just like a
+							chef in
+							the
+							kitchen, your
+							success at MCI
+							will
+							be a combination of the right ingredients and a little bit of hard work and dedication. In this manual,
+							you
+							will find all the <span class="font-bold">"recipes for success"</span> you need to cook up a satisfying
+							career.</p>
+
+						<p class="mb-0 font-boldItalic">So grab your apron, and let's get cooking!</p>
+					</div>
+				</div>
+
+				<div
+					class="flex justify-between items-end w-full absolute 3xl:bottom-[-50%] 3xl:left-[46%] bottom-0 translate-y-[40%] left-[50%] translate-x-[-50%] 3xl:translate-y-[-47%] xl:max-w-[1270px] 3xl:max-w-[1567px]">
+
+					<img class="absolute top-[25px] hidden lg:left-0 md:inline md:left-[-125px] md:w-[55%] md:relative lg:w-auto"
+						src="public/images/welcome-icon-1.svg" alt="Welcome">
+
+					<div class="w-[315px] top-[30px] md:top-0 relative">
+						<svg class="relative z-[2]" xmlns="http://www.w3.org/2000/svg" xml:lang="en"
+							xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" fill="#fff">
+							<title>Circular Text Path</title>
+							<defs>
+								<path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" />
+							</defs>
+							<g>
+								<text class="font-regular animate-trans-rotate origin-[250px_250px] text-4xl/[150%]">
+									<textPath xlink:href="#textcircle" aria-label="CSS & SVG are awesome" textLength="940">
+										Scroll down to see the recipes . &#160;
+									</textPath>
+								</text>
+							</g>
+						</svg>
+
+						<div
+							class="z-[1] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[244px] h-[244px] rounded-full border-[40px] border-pastelOrange">
+						</div>
+					</div>
+					<img class="relative top-[20px] hidden xl:inline" src="public/images/welcome-icon-2.svg" alt="Welcome">
+				</div>
+			</div>
+		</section>
+
+		<section class="mt-[325px] mb-[185px]">
+			<div class="ht-container">
+				<div
+					class="max-w-full 3xl:max-w-full 2xl:max-w-[1270px] 2xl:mx-auto grid grid-cols-1 3xl:gap-x-[30px] 3xl:gap-y-[50px] 2xl:gap-[60px] lg:grid-cols-2 3xl:lg:grid-cols-3 lg:gap-[30px] gap-y-[30px]">
+
+					<div class="min-h-[510px] flex flex-col bg-futurePink pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">01</span>
+
+						<div class="content">
+							<p class="content-title">General
+								Employment Policies
+							</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[60px] xl:max-w-full" src="public/images/card-icon-1.svg"
+									alt="Employment Policies">
+							</div>
+						</div>
+
+						<p class="text">Corn on the Cob Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-futurePink" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-futurePink" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-pastelGreen pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">02</span>
+
+						<div class="content">
+							<p class="content-title">Holidays</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[143px] xl:max-w-full" src="public/images/card-icon-2.svg"
+									alt="Holidays">
+							</div>
+						</div>
+						<p class="text">Empanadas Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelGreen" href="#">Read the Recipe</a>
+
+							<svg class="stroke-white group-hover:stroke-pastelGreen" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div
+						class="min-h-[510px] flex flex-col bg-pastelOrange pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">03</span>
+
+						<div class="content">
+							<p class="content-title">Pregnancy</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[95px] xl:max-w-full" src="public/images/card-icon-3.svg"
+									alt="Pregnancy">
+							</div>
+						</div>
+						<p class="text">Crispy Fries Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelOrange" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-pastelOrange" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-futurePink pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">04</span>
+
+						<div class="content">
+							<p class="content-title">Special Leave</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[85px] xl:max-w-full" src="public/images/card-icon-4.svg"
+									alt="Special Leave">
+							</div>
+						</div>
+						<p class="text">Kaassoufle Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-futurePink" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-futurePink" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-pastelGreen pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">05</span>
+
+						<div class="content">
+							<p class="content-title ">Sickness <br>& Incapacity for
+								Work</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[100px] xl:max-w-full" src="public/images/card-icon-5.svg" alt="Sickness & Incapacity for
+									Work">
+							</div>
+						</div>
+						<p class="text">Borscht Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelGreen" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-pastelGreen" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div
+						class="min-h-[510px] flex flex-col bg-pastelOrange pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">06</span>
+
+						<div class="content">
+							<p class="content-title">Insurances <br>& Pension Scheme
+							</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[105px] xl:max-w-full" src="public/images/card-icon-6.svg"
+									alt="Insurances >& Pension Scheme">
+							</div>
+						</div>
+						<p class="text">Meatballs Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelOrange" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-pastelOrange" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-futurePink pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">07</span>
+
+						<div class="content">
+							<p class="content-title">Expenses <br>& Business Travel
+							</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[100px] xl:max-w-full" src="public/images/card-icon-7.svg"
+									alt="Expenses & Business Travel">
+							</div>
+						</div>
+						<p class="text">Moussaka Edition </p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-futurePink" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-futurePink" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-pastelGreen pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">08</span>
+
+						<div class="content">
+							<p class="content-title">Growth & Development</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[95px] xl:max-w-full" src="public/images/card-icon-8.svg"
+									alt="Growth & Development">
+							</div>
+						</div>
+						<p class="text">Mocha Coffee Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelGreen" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-pastelGreen" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div
+						class="min-h-[510px] flex flex-col bg-pastelOrange pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">09</span>
+
+						<div class="content">
+							<p class="content-title">Intellectual Property</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[90px] xl:max-w-full" src="public/images/card-icon-9.svg"
+									alt="Intellectual Property">
+							</div>
+						</div>
+						<p class="text">Pickled Fish on Toast Edition </p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelOrange" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-pastelOrange" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-futurePink pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">10</span>
+
+						<div class="content">
+							<p class="content-title">Safety</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[100px] xl:max-w-full" src="public/images/card-icon-10.svg"
+									alt="Safety">
+							</div>
+						</div>
+						<p class="text">Schnitzel Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-futurePink" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-futurePink" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-pastelGreen pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">11</span>
+
+						<div class="content">
+							<p class="content-title">Health, Wellbeing <br>& Trust
+							</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[115px] xl:max-w-full" src="public/images/card-icon-11.svg"
+									alt="Health, Wellbeing & Trust">
+							</div>
+						</div>
+						<p class="text">Rainbow Crepes Edition </p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelGreen" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-pastelGreen" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div
+						class="min-h-[510px] flex flex-col bg-pastelOrange pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">12</span>
+						<div
+							class="flex flex-col sm:flex-row flex-1 flex-row lg:flex-col xl:flex-row justify-between py-[9.5px] border-y-2 border-white">
+							<p class="content-title">Termination of Employment</p>
+
+							<div
+								class="flex justify-end items-center w-full sm:w-3/6 lg:w-full xl:w-3/6 lg:flex lg:justify-end lg:items-end xl:items-center">
+
+								<img class="flex-[0] max-w-full lg:max-w-[110px] xl:max-w-full" src="public/images/card-icon-12.svg"
+									alt="Termination of Employment">
+							</div>
+						</div>
+						<p class="text">Macaroon Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelOrange" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-pastelOrange" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-futurePink pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">13</span>
+
+						<div class="content">
+							<p class="content-title">Social Media</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[115px] xl:max-w-full" src="public/images/card-icon-13.svg"
+									alt="Social Media">
+							</div>
+						</div>
+						<p class="text">Ginger Cookies Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-futurePink" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-futurePink" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-pastelGreen pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">14</span>
+
+						<div class="content">
+							<p class="content-title">Computer <br>Tools & Rights</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[100px] xl:max-w-full" src="public/images/card-icon-14.svg"
+									alt="Computer Tools & Rights">
+							</div>
+						</div>
+						<p class="text">Samosa Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelGreen" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-pastelGreen" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div
+						class="min-h-[510px] flex flex-col bg-pastelOrange pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">15</span>
+
+						<div class="content">
+							<p class="content-title">Company <br>Rules Policies</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[110px] xl:max-w-full" src="public/images/card-icon-15.svg"
+									alt="Company Rules Policies">
+							</div>
+						</div>
+						<p class="text">Paella Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-pastelOrange" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-pastelOrange" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+
+					<div class="min-h-[510px] flex flex-col bg-futurePink pt-[23px] pb-[41px] px-[25px] xs:px-[46px] text-white">
+						<span class="number">16</span>
+
+						<div class="content">
+							<p class="content-title">Sustainability & Ethnics</p>
+
+							<div class="content-img">
+								<img class="flex-[0] max-w-full lg:max-w-[95px] xl:max-w-full" src="public/images/card-icon-16.svg"
+									alt="Sustainability & Ethnics">
+							</div>
+						</div>
+						<p class="text">Chickpea Pasta Edition</p>
+						<div class="btn group">
+							<a class="btn-text group-hover:text-futurePink" href="#">Read the Recipe</a>
+							<svg class="stroke-white group-hover:stroke-futurePink" width="22" height="20" viewBox="0 0 22 20"
+								fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.074 2.66669L20.3333 10M20.3333 10L13.074 17.3334M20.3333 10H1.66663" stroke-width="2"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="mb-[20px]">
+			<div class="flex flex-col items-center">
+
+				<a href="#">
+					<svg class="transition-all duration-500 hover:fill-futurePink" width="99" height="106" viewBox="0 0 99 106"
+						fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M81.1766 32.1212C81.1766 49.3022 67.1462 63.2424 49.8236 63.2424C32.5011 63.2424 18.4707 49.3022 18.4707 32.1212C18.4707 14.9402 32.5011 1 49.8236 1C67.1462 1 81.1766 14.9402 81.1766 32.1212Z"
+							stroke="black" stroke-width="2" />
+						<path d="M33 36.3773L49.5 19.9955M49.5 19.9955L66 36.3773M49.5 19.9955V93.7136" stroke="black"
+							stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</a>
+
+				<p class="m-0">Back to Top</p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div>
+			<div class="pb-[25px] border-b-2 border-pastelOrange">
+				<div class="ht-container">
+					<div class="flex justify-between items-end gap-[50px]">
+						<p class="m-0 text-2xl/[150%] font-semibold text-pastelOrange">Recipes for Success</p>
+						<img class="w-[50px]" src="public/images/logo-footer.svg" alt="Logo">
+					</div>
+				</div>
+			</div>
+
+			<div class="ht-container">
+				<ul
+					class="list m-0 pt-[35px] pb-[60px] grid 3xl:grid-rows-3 3xl:grid-flow-col xl:grid-rows-4 xl:grid-flow-col lg:grid-rows-6 lg:grid-flow-col xs:grid-rows-8 xs:grid-rows-8 xs:grid-flow-col xs:gap-x-[50px] sm:gap-x-[25px] gap-y-[25px]">
+
+					<li class="m-0 list-none">
+						<span class="mb-[2px] text-2xl/[150%] font-semiBold text-futurePink border-b-2 border-futurePink">01</span>
+						<a class="hover:text-futurePink text-lg/[150%] mt-[10px] block" href="#">General Employment
+							Policies</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelGreen border-b-2 border-pastelGreen">02</span>
+						<a class="hover:text-pastelGreen text-lg/[150%] mt-[10px] block" href="#">Holidays</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelOrange border-b-2 border-pastelOrange">03</span>
+						<a class="hover:text-pastelOrange text-lg/[150%] mt-[10px] block" href="#">Pregnancy</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span class="mb-[2px] text-2xl/[150%] font-semiBold text-futurePink border-b-2 border-futurePink">04</span>
+						<a class="hover:text-futurePink text-lg/[150%] mt-[10px] block" href="#">Special Leave</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelGreen border-b-2 border-pastelGreen">05</span>
+						<a class="hover:text-pastelGreen text-lg/[150%] mt-[10px] block" href="#">Sickness & Incapacity for Work</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelOrange border-b-2 border-pastelOrange">06</span>
+						<a class="hover:text-pastelOrange text-lg/[150%] mt-[10px] block" href="#">Insurances &Pension Scheme</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span class="mb-[2px] text-2xl/[150%] font-semiBold text-futurePink border-b-2 border-futurePink">07</span>
+						<a class="hover:text-futurePink text-lg/[150%] mt-[10px] block" href="#">Expenses & Business Travel</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelGreen border-b-2 border-pastelGreen">08</span>
+						<a class="hover:text-pastelGreen text-lg/[150%] mt-[10px] block" href="#">Growth & Development</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelOrange border-b-2 border-pastelOrange">09</span>
+						<a class="hover:text-pastelOrange text-lg/[150%] mt-[10px] block" href="#">Intellectual Property</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span class="mb-[2px] text-2xl/[150%] font-semiBold text-futurePink border-b-2 border-futurePink">10</span>
+						<a class="hover:text-futurePink text-lg/[150%] mt-[10px] block" href="#">Safety</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelGreen border-b-2 border-pastelGreen">11</span>
+						<a class="hover:text-pastelGreen text-lg/[150%] mt-[10px] block" href="#">Health, Wellbeing & Trust</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelOrange border-b-2 border-pastelOrange">12</span>
+						<a class="hover:text-pastelOrange text-lg/[150%] mt-[10px] block" href="#">Termination of Employment</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span class="mb-[2px] text-2xl/[150%] font-semiBold text-futurePink border-b-2 border-futurePink">13</span>
+						<a class="hover:text-futurePink text-lg/[150%] mt-[10px] block" href="#">Social Media</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelOrange border-b-2 border-pastelOrange">14</span>
+						<a class="hover:text-pastelOrange text-lg/[150%] mt-[10px] block" href="#">Computer Tools & Rights</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelGreen border-b-2 border-pastelGreen">15</span>
+						<a class="hover:text-pastelGreen text-lg/[150%] mt-[10px] block" href="#">Company Rules</a>
+					</li>
+
+					<li class="m-0 list-none">
+						<span
+							class="mb-[2px] text-2xl/[150%] font-semiBold text-pastelOrange border-b-2 border-pastelOrange">16</span>
+						<a class="hover:text-pastelOrange text-lg/[150%] mt-[10px] block" href="#">Sustainability & Ethics</a>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<div class="border-b-2 border-futurePink">
+					<div class="ht-container">
+						<p class="m-0 pb-[25px] text-2xl/[150%] font-semiBold text-futurePink">Recipes for Success</p>
+					</div>
+				</div>
+
+				<div class="ht-container">
+					<p class="m-0 pt-[30px] pb-[85px] text-sm/[150%] font-medium text-futurePink">This staff manual contains
+						employment conditions,
+						which, in a developing
+						business, will sometimes require changes. MCI therefore reserves the right to unilaterally revise, delete
+						and add to the provisions of this Staff manual at any time without further notice. All such revisions,
+						deletions or additions to the Staff manual must be in writing; no oral statements or representations can
+						change the provisions of the Staff manual. With due observance of Article 7:613 of the Dutch Civil Code,
+						MCI
+						may modify one or more provisions, if and insofar MCI has a considerable interest (‘’zwaarwichtig
+						belang’’).
+					</p>
+				</div>
+
+				<div class="border-t-2 border-pastelGreen pt-[10px] pb-[25px]">
+					<div class="ht-container">
+						<div class="flex-col items-start md:flex-row flex justify-between md:items-center text-pastelGreen">
+							<p class="mb-[10px] md:m-0 text-base/[150%]">Copyrights © 2023 MCI. All rights reserved.</p>
+
+							<div class="flex-col sm:flex-row flex gap-[10px] text-base/[150%]">
+								<span>Designed & Developed by</span>
+								<img src="public/images/ht-logos.svg" alt="Helenic technologies">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
